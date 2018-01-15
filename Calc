@@ -1,0 +1,95 @@
+ <meta charset="ANSI" /> <title>Calculadora de Sgolds</title> <style>
+	body{
+	background-color:#333;
+}
+h1 {
+	text-align:center;
+	color:#fff
+}
+h2 {
+    text-align: center;
+}
+.button1{
+	border-radius:5px;
+	background-color:#71be47;
+	color:#fff;
+	border-top-color:#71be47;
+	border-left-color:#71be47;
+	width: 150px;
+}
+.button1:hover{
+	border-radius:5px;
+	background-color:#71be47;
+	color:#fff;
+	border-top-color:#71be47;
+	border-left-color:#71be47;
+	width: 150px;	
+}
+.edit1{
+	width: 300px;
+	border-radius: 3px;
+    padding: 9px;
+}
+.rodape {
+    color: #fff;
+    text-align: center;
+    top: 150px absolute;
+    position: fixed;
+    top: 550px;
+    margin-left: 45%;
+}
+.calcarea {
+    color: #fff;
+}
+
+a[href="http://forum.hellfiremu.net/index.php?/user/66-castiel/"]{
+	color: #eedd82;
+    text-shadow: #eedd82 1px 1px 10px;
+    background: url(http://i.imgur.com/suugW7P.gif);
+	text-decoration:none;
+	
+	margin-bottom:15px !important;
+	}
+a[href="http://hellfiremu.net/index4"]{
+		color:#ff0000;
+		text-decoration:none;
+		
+	}
+div#resposta {
+    text-align: center;
+    color: #fff;
+    display:block;
+	margin-left: 20%;
+    margin-right: 20%;
+}
+</style> <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" /> <script src="http://scripter.forumeiros.com/17822.js" type="text/javascript"></script>   
+<!-- Escreve o html via script --> 
+<div class="Logotype">
+	 
+	<h1>Calculadora de Sgolds MHF
+	</h1>
+	 
+</div>
+ 
+<div class="calcarea">
+	 
+	<h2>
+		 <label> Digite o valor em R$<br /> <br /> <input title="Digite o valor do deposito" onkeypress="return SomenteNumero(event)" id="reais" style="text-align:center" placeholder="R$0" class="edit1" type="text" /></label><br /><br /> <input onclick="calcular()" title="Calcular" alt="calcule" id="buttoncalc" value="Calcular" class="button1" type="button" /> 
+	</h2>
+</div>
+ 
+<div class="resposta" id="resposta">
+	 
+	<!-- Divisao para escrita via js da resposta do calculo --> 
+</div>
+ 
+<div class="linksuteis" id="linksuteis">
+	 
+	<!-- Divisao para escrita via js dos links uteis --> 
+</div>
+ 
+<div class="rodape" id="rodape">
+	 
+	<!-- Divisao suplementar --> 
+</div>
+ 
